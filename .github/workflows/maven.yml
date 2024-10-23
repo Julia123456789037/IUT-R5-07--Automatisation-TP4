@@ -17,7 +17,7 @@ on:
 jobs:
   build:
     # JB :
-    permissions : write-all
+    permissions: write-all
 
 
     runs-on: ubuntu-latest
