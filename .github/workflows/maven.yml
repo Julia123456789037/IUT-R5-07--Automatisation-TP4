@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    # JY :
+    # JB :
     permissions : write-all
 
 
@@ -37,10 +37,10 @@ jobs:
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d
 
-    - name: JY commmit et push
+    - name: JB commmit et push
       run: |
-       git config --global user.name <votre id GitHub>
-       git config --global user.email <votre email>
+       git config --global user.name Julia123456789037
+       git config --global user.email julia037.filia@gmail.com
        git add -A
        git status
        git commit -m "exécution de maven"
