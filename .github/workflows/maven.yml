@@ -45,4 +45,3 @@ jobs:
        git status
        git commit -m "exécution de maven"
        git push
-
